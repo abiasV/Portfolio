@@ -10,32 +10,44 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-             <h3>Web Development</h3>
+             <h3>Frontend Development</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Development and implementation of web applications for improvements and new product features.</p>
+              <p>Implement design into code for user interface.</p>
             </li>
             <li>
             <BiCheck className="service__list-icon" />
-              <p>Source, select and organize information for inclusion and design the appearance, layout and flow of the Website.</p>
+              <p>Ensure website responsiveness across device.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Assist in Landing Page related setup as required.</p>
+              <p>Optimize performance for speed and scalability.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Functionality, performance, sociability, reliability, realistic implementation schedules, and system architecture for each website.</p>
+              <p>Implement user interraction with JavaScript.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Delivering new features, fixing defects, and improving the existing codebase.</p>
+              <p>Maintain code and fix bugs.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Plan, design, write, modify, integrate and test Web-site related code.</p>
+              <p>Integrate APIs and databases for dynamic content.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Test functionality across browsers, trobleshoot issues.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Develop accessible web applications for all users.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Collaborate with designers and backend developers.</p>
             </li>
           </ul>
         </article>
@@ -47,54 +59,66 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Visualize and design user interface for web, desktop and mobile applications and produce designs based on user feedback.</p>
+              <p>Understand user needs, behaviors, creating intuitive, engaging user experiences.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Work with the UX and UI Design Teams to create unique, strong, and inventive front-end user experiences.</p>
+              <p>Read, build from wireframes, prototypes for accurate frontend implementation using Figma.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Work directly with the clients to present/communicate ideas and explain rationale behind design decisions.</p>
+              <p>Utilize design systems, style guides for visual consistency, cohesion.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Establish web and platform design standards and ensure adherence to these standards.</p>
+              <p>Implement responsive, adaptive designs for cross-device compatibility, fluidity.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Identify UX/UI issues and maintain processes that address and resolve them.</p>
+              <p>Know UI elements, their use for effective user interfaces.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Implement interaction design for enhanced usability, engaging elements.</p>
             </li>
           </ul>
         </article>
         {/* END OF WEB DEVELOPMENT */}
-        {/* <article className="service">
+        {<article className="service">
           <div className="service__head">
-             <h3>Content Creation</h3>
+             <h3>Backend Development</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Database design, management, implementing efficient data storage solutions.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Create, maintain robust server-side logic, core application functionality.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Develop APIs for database interaction, enforcing RESTful services principles.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Handle CRUD operations to enable data creation, retrieval, update, deletion.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Ensure application scalability, manage growing data, traffic demands.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Integrate frontend elements with server-side logic, functionalities.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Debug, troubleshoot to maintain smooth application performance, reliability.</p>
             </li>
           </ul>
-        </article> */}
+        </article> }
         {/* END OF CONTENT CREATION */}
       </div>
     </section>
